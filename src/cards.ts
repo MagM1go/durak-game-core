@@ -66,7 +66,7 @@ export class GlobalDeck {
         randomIndex = randomNumber(0, this.cardsNames.length - 1);
         const cardName: string = this.cardsNames[randomIndex];
 
-        // IMPORTANT! Deleting card from deck.
+        // IMPORTANT! Deleting card from deck. Not important 
         this.deleteCardsAfterGetting(suit, cardName);
 
         return new Card(suit, cardName);
