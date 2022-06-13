@@ -1,4 +1,4 @@
-import { globalDeck, PlayerDeck } from "./src/cards";
+import { globalDeck, PlayerDeck } from "./src";
 
 const myDeck = new PlayerDeck();
 const botDeck = new PlayerDeck();
