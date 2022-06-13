@@ -1,0 +1,31 @@
+{
+  "name": "durak-game-core",
+  "version": "0.0.0",
+  "description": "TypeScript package made for creating mini card game 'Durak'.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npx ts-node ./index.ts",
+    "test": "npx ts-node ./test/test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkJoij/durak-game-core.git"
+  },
+  "keywords": [
+    "game-core",
+    "durak",
+    "ts",
+    "js"
+  ],
+  "author": "Dallas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarkJoij/durak-game-core"
+  },
+  "homepage": "https://github.com/DarkJoij/durak-game-core#readme",
+  "dependencies": {
+    "@types/node": "^17.0.42",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  }
+}
